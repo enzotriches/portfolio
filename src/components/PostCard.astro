@@ -3,12 +3,12 @@ import formatDate from "@/utils/formatDate";
 
 type Props = {
   title: string;
-  publishedAt: Date;
+  datetime: Date;
   description: string;
   slug: string;
 };
 
-const { title, publishedAt, description, slug } = Astro.props;
+const { title, datetime, description, slug } = Astro.props;
 ---
 
 <a
@@ -20,7 +20,7 @@ const { title, publishedAt, description, slug } = Astro.props;
   >
     <p class="text-neutral-100">{title}</p>
     <div class="flex flex-row items-center gap-4">
-      <p>{formatDate(publishedAt)}</p>
+      <p>{formatDate(datetime)}</p>
 
       <svg
         width="18"
@@ -43,7 +43,4 @@ const { title, publishedAt, description, slug } = Astro.props;
     </div>
   </div>
 
-  <p class="truncate">
-    {description}
-  </p>
 </a>

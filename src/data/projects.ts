@@ -3,22 +3,27 @@ export type Project = {
   techs: string[];
   link: string;
   isComingSoon?: boolean;
+  description?: string;
+  clients?: string[];
 };
 
 const projects: Project[] = [
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    title: "Supersonic | Fast Food - Digital Ordering Platform ",
+    techs: ["ReactJS", "NodeJS", "TailwindCSS", "Google Cloud Plataform", "Typescript", "Golang", "Recoil", "VueJS", "xState", "Cypress", "Jest"],
+    link: "https://fingermark.ai/supersonic/",
+    description: "",
+    clients: ["KFC", "Burger King", "Pizza Hut", "Taco Bell"]
   },
   {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
+    title: "Guia | Shopping Malls - Store Managment System",
+    techs: ["ReactJS", "GraphQL", "NodeJS", "TypeScript","MySQL", "TailwindCSS", "Knex","ObjectionJS"],
+    link: "https://www.ibasi.com.br/ibasi-guia",
+    clients: ["Master","Aravest","Litoral Sul","Vest Sul", "Vitória Régia", "Prime", "Paraná Fashion Park"]
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
+    title: "Hokusai | Automated Blog Post Generator",
+    techs: ["Astro", "NodeJS", "Vercel", "Planetscale", "TailwindCSS"],
     link: "/",
     isComingSoon: true,
   },

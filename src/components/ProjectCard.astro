@@ -3,9 +3,9 @@ import type { Project } from "@/data/projects";
 
 type Props = Project;
 
-const { title, techs, link, isComingSoon } = Astro.props;
+const { title, techs, link, isComingSoon, clients } = Astro.props;
 
-const formatTechs = (values: string[]) =>
+const formatList = (values: string[]) =>
   values.toString().replaceAll(",", " • ");
 ---
 
@@ -15,7 +15,7 @@ const formatTechs = (values: string[]) =>
       <div class="t group flex w-full flex-col justify-between gap-2 rounded-md border border-neutral-700 p-4 md:flex-row md:items-center">
         <div class="flex flex-col gap-2 md:flex-row md:items-center md:gap-4">
           <p class="text-neutral-100">{title}</p>
-          <p>{formatTechs(techs)}</p>
+          <p>{formatList(techs)}</p>
         </div>
 
         <p class="w-fit rounded-md bg-neutral-900 px-4 py-1">Soon</p>
@@ -31,9 +31,14 @@ const formatTechs = (values: string[]) =>
         target="_blank"
         rel="noreferrer"
       >
-        <div class="flex flex-col gap-4 md:flex-row md:items-center">
-          <p class="text-neutral-100">{title}</p>
-          <p>{formatTechs(techs)}</p>
+        <div class="flex flex-col space-y-4">
+            <p class="text-neutral-100">{title}</p>
+            <small class="text-neutral-500">{formatList(techs)}</small>
+            <p class="space-x-2">
+              {
+                clients?.length && (<small class="text-neutral-500">Used by: <span class="text-neutral-300">{ formatList(clients)}</span></small>)
+              } 
+            </p>
         </div>
 
         <svg
