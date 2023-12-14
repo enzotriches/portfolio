@@ -6,7 +6,7 @@ datetime: 2023-08-22
 ---
 
 
-# Introduction to NoSQL
+## Introduction to NoSQL
 NoSQL (Not only SQL) is a non-relational database technology that stores data in a format that is different from the traditional relational database. It provides a much simpler data model than a relational model and makes it easier to work with large datasets that require high scalability.
 
 NoSQL is a broad term used to describe any database that does not follow the tabular structure of a relational database. Rather than using the traditional rows and columns, NoSQL databases are document-oriented, meaning they store data in documents or other self-contained structures. These structured documents can contain all sorts of information, including key-value pairs, lists, objects, and more.

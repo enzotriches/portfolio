@@ -6,7 +6,7 @@ datetime: 2023-02-21
 ---
 
 
-## Introduction to Cloud Computing
+### Introduction to Cloud Computing
 
 Cloud computing is an increasingly popular way for organizations and individuals to access computing resources without having to own and manage their own hardware. Through cloud computing, businesses and users can access almost any number of applications, services, and technologies from any device, from any location, and from any provider, all while paying only for the resources they consume. It is a cost-effective, efficient, and flexible means of providing computing power.
 

@@ -6,7 +6,7 @@ datetime: 2023-12-05
 ---
 
 
-# Understanding Smart Contracts
+## Understanding Smart Contracts
 
 Smart contracts are digital contracts designed to make transactions easier between two or more parties. They are a type of distributed ledger technology that can be used to accurately and efficiently regulate digital transactions according to predetermined rules and regulations. While the concept of digital contracts is not new, smart contracts can automate the process of verifying and enforcing each individual contract, making it much more efficient.
 

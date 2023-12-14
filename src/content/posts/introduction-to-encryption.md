@@ -6,7 +6,7 @@ datetime: 2023-09-17
 ---
 
 
-# Introduction to Encryption 
+## Introduction to Encryption 
 
 Encryption is a process of taking plaintext or any other type of data and transforming it into ciphertext. The encryption process is used to make data secure against unauthorized access and manipulation. In today’s digital world, encryption is an important aspect of data security and protecting personal information. 
 

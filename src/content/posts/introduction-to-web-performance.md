@@ -6,7 +6,7 @@ datetime: 2023-11-01
 ---
 
 
-# Introduction to Web Performance
+## Introduction to Web Performance
 
 Performance optimization is a crucial element in software engineering because it increases website speed, user experience, and scalability. Web performance optimization is the process of improving the speed and responsiveness of a website or web application. In this blog post, we will discuss the fundamentals of web performance optimization and how you can use it to improve the speed and responsiveness of your website.
 

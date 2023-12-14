@@ -6,7 +6,7 @@ datetime: 2023-11-08
 ---
 
 
-# The OWASP Top 10 Web Security Risks and How to Mitigate Them
+## The OWASP Top 10 Web Security Risks and How to Mitigate Them
 As a software engineer, or tech enthusiast, understanding web security is key to the success of any project. The Open Web Application Security Project (OWASP) has identified the top 10 web security risks, and provides best practices to help mitigate them. In this post, we will discuss the OWASP Top 10, and how to apply best practices to help protect against these risks.
 
 ## Injection

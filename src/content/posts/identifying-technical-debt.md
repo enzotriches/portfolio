@@ -6,7 +6,7 @@ datetime: 2023-12-11
 ---
 
 
-# Identifying Technical Debt
+## Identifying Technical Debt
 
 Technical debt is an important concept for software engineers and tech enthusiasts to understand for the long-term success of any software project. Technical debt is the cost accrued when developers and engineers make trade-offs that result in taking shortcuts, forgoing testing and refactoring, and/or failing to adhere to software development best practices. It is a concept that has been gaining more recognition as software development becomes more complex and widespread. 
 

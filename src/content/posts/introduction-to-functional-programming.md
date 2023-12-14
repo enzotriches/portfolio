@@ -6,7 +6,7 @@ datetime: 2023-07-16
 ---
 
 
-# Introduction to Functional Programming
+## Introduction to Functional Programming
 Functional programming is an exciting and powerful concept that has been gaining popularity in the software engineering world. Functional programming is a paradigm of programming in which structured data and functions are used to compose a program. It is a style of programming that encourages a programmer to think in terms of expressions, rather than instructions. This allows a program to be written in a more succinct and declarative way, while still ensuring that the program is robust and efficient. 
 
 In this article, we will explore the basics of functional programming. We will look at what makes functional programming different from other programming paradigms, how it enables programmers to think more effectively, and how to get started with functional programming.

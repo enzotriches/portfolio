@@ -6,11 +6,11 @@ datetime: 2023-12-14
 ---
 
 
-## Howto Write Efficient Algorithms
+## How to Write Efficient Algorithms
 
 The art of writing efficient algorithms is a highly sought after skill, as it can drastically improve the performance of any project. Not only do efficient algorithms require fewer resources to run, they can also provide better results in less time. In this blog post, we will explore some of the key principles behind writing efficient algorithms, as well as some tips and best practices to keep in mind. 
 
-### What is an Algorithm?
+## What is an Algorithm?
 
 An algorithm is a set of instructions for a computer to carry out a specific task. It is usually expressed as a sequence of steps that are executed in the same order each time. It can be written in any programming language, including Python, Java, and C++.
 
