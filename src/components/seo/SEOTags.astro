@@ -2,7 +2,7 @@
 import { SEO } from "astro-seo";
 import { SITE_URL } from "@/data/config";
 import type { HeadTags } from "@/utils/types/HeadTags";
-
+import SpeedInsights from "@vercel/speed-insights/astro";
 type Props = HeadTags;
 
 const { title, description, noindex, og } = Astro.props;
@@ -64,4 +64,5 @@ const openGraph = {
       ],
     }}
   />
+  <SpeedInsights />
 </head>
